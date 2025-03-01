@@ -5,13 +5,20 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    android:background="#FFFFFF">
+    android:background="@color/racing_blue">
 
     <!-- Title -->
 
     <!-- Profile Image -->
 
     <!-- Name -->
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="321dp"
+        android:layout_height="468dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/profile" />
 
     <TextView
         android:layout_width="401dp"
@@ -23,13 +30,6 @@
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/profile_image"
-        android:layout_width="324dp"
-        android:layout_height="194dp"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/profile" />
 
     <TextView
         android:id="@+id/profile_name"
