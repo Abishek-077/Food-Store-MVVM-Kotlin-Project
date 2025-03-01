@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    android:background="#D9EDC3"
+    android:background="@color/white"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -108,7 +108,7 @@
                 android:background="@drawable/edit"
                 android:text="Sign Up"
                 android:textSize="18sp"
-                app:backgroundTint="#4CAF50" />
+                app:backgroundTint="#FFFFA500" />
         </LinearLayout>
     </LinearLayout>
 
