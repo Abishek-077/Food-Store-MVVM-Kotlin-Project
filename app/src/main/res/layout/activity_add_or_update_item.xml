@@ -137,18 +137,18 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/mb_submit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="18dp"
+        android:layout_width="374dp"
+        android:layout_height="80dp"
         android:layout_marginLeft="140dp"
         android:layout_marginRight="140dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cb_purchased"
-        app:cornerRadius="55dp"
         android:backgroundTint="#FFFFA500"
+        android:padding="18dp"
         android:text="Save"
-        android:textSize="24dp"/>
+        android:textSize="24dp"
+        app:cornerRadius="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cb_purchased" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
