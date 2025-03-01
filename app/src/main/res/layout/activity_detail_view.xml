@@ -151,7 +151,7 @@
                         android:textSize="16sp"
                         android:padding="10dp"
                         android:layout_marginTop="16dp"
-                        tools:text="This is a cute dress for little baby"/>
+                        tools:text="This is Food for Adult"/>
 
                     <View
                         android:layout_width="match_parent"

@@ -10,7 +10,6 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.babybuy.LoginActivity
 import com.example.babybuy.R
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 
 class ProfileFragment : Fragment() {

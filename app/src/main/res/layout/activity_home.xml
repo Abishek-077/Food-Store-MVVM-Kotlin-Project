@@ -30,7 +30,7 @@
         android:id="@+id/textView"
         android:layout_width="341dp"
         android:layout_height="85dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="cursive"
         android:text="Buy All Near By Food Product Here!"
         android:textAlignment="center"
@@ -38,7 +38,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview" />
 
@@ -46,12 +46,14 @@
         android:id="@+id/logoImageView"
         android:layout_width="420dp"
         android:layout_height="400dp"
-        android:src="@drawable/happy"
         android:layout_marginTop="10dp"
+        android:src="@drawable/store"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
 
     <Button
         android:id="@+id/btn_LOGIN"
