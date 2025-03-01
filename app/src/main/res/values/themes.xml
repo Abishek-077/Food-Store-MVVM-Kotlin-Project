@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BabyBuy" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme attributes here -->
+    </style>
+</resources>
