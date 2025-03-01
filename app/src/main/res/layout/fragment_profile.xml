@@ -43,7 +43,7 @@
         android:id="@+id/profile_bio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hey! I am using Food Store App."
+        android:text="Hey! I am on Food Store App."
         android:textSize="16sp"
         android:textColor="#666666"
         android:gravity="center"
