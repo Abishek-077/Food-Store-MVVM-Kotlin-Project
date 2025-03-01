@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Baby Store"
+                android:text="Food Store"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="36sp"
