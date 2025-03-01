@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D9EDC3"
+    android:background="#FF0057B8"
     tools:context=".HomeActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_marginTop="70dp"
         android:text="Quick Retail Food App"
         android:textAlignment="center"
-        android:textColor="#4CAF50"
+        android:textColor="#FFFFA500"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +34,7 @@
         android:fontFamily="cursive"
         android:text="Buy All Near By Food Product Here!"
         android:textAlignment="center"
-        android:textColor="#555555"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +47,7 @@
         android:layout_width="420dp"
         android:layout_height="400dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/store"
+        android:src="@drawable/bghome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
@@ -66,7 +66,7 @@
         app:backgroundTint="@null"
         android:text="LOGIN"
         android:textColor="#ffffff"
-        android:background="#8BC34A"
+        android:background="#FFFFA500"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -89,7 +89,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="32dp"
         app:backgroundTint="@null"
-        android:background="#AEBF08"
+        android:background="#FF8B4000"
         android:textColor="#FFFFFF"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
