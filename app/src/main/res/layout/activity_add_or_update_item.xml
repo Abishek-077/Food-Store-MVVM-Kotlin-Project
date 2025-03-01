@@ -119,7 +119,7 @@
         android:drawableLeft="@drawable/baseline_add_location_24"
         android:text="Click to add Location"
         android:textSize="30dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#FFFFA500"
         android:textColor="@color/white"
         />
 
@@ -146,7 +146,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cb_purchased"
         app:cornerRadius="55dp"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#FFFFA500"
         android:text="Save"
         android:textSize="24dp"/>
 
