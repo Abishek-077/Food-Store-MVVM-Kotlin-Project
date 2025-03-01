@@ -119,7 +119,7 @@
         android:drawableLeft="@drawable/baseline_add_location_24"
         android:text="Click to add Location"
         android:textSize="30dp"
-        android:backgroundTint="#FFFFA500"
+        android:backgroundTint="#FFA500"
         android:textColor="@color/white"
         />
 
@@ -141,7 +141,7 @@
         android:layout_height="80dp"
         android:layout_marginLeft="140dp"
         android:layout_marginRight="140dp"
-        android:backgroundTint="#FFFFA500"
+        android:backgroundTint="#FFA500"
         android:padding="18dp"
         android:text="Save"
         android:textSize="24dp"

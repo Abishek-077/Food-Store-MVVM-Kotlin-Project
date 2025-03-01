@@ -108,7 +108,7 @@
                 android:background="@drawable/edit"
                 android:text="Sign Up"
                 android:textSize="18sp"
-                app:backgroundTint="#FFFFA500" />
+                app:backgroundTint="#FFA500" />
         </LinearLayout>
     </LinearLayout>
 

@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:backgroundTint="#FFFFA500"
+        app:backgroundTint="#FFA500"
         android:text="Save"
         android:textColor="@color/black"
         android:insetTop="0dp"

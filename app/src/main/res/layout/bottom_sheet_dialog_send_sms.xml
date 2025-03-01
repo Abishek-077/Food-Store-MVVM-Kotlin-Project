@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@id/til_contact"
         android:layout_marginTop="24dp"
         app:cornerRadius="0dp"
-        android:backgroundTint="#FFFFA500"
+        android:backgroundTint="#FFA500"
         android:text="Send"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

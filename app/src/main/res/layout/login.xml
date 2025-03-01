@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="FFA500"
+    android:background="@color/orange"
     tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
@@ -69,7 +69,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:text="Login"
-                app:backgroundTint="#FFA500"
+                app:backgroundTint="@color/orange"
                 android:textSize="18sp"
                 android:background="@drawable/edit" />
         </LinearLayout>
