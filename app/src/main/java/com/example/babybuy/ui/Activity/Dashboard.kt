@@ -1,13 +1,15 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import HomeFragment
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.babybuy.AppConstant
 import com.example.babybuy.model.User
-import com.example.babybuy.Fragments.ProfileFragment
-import com.example.babybuy.Fragments.ShopFragment
+import com.example.babybuy.ui.Fragments.ProfileFragment
+import com.example.babybuy.ui.Fragments.ShopFragment
+import com.example.babybuy.R
 import com.example.babybuy.databinding.ActivityDashboardBinding
 
 class Dashboard : AppCompatActivity() {

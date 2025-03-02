@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.content.Intent
 import android.os.Bundle

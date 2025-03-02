@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.babybuy.R
 import com.example.babybuy.databinding.ActivitySignupBinding
 import com.example.babybuy.repository.UserRespositoryImpl
 import com.example.babybuy.view_model.RegisterViewModel

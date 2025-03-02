@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.Manifest
 import android.content.Context
@@ -15,6 +15,11 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.babybuy.AppConstant
+import com.example.babybuy.BitmapScalar
+import com.example.babybuy.GeoCoding
+import com.example.babybuy.R
+import com.example.babybuy.ui.UiUtility
 import com.example.babybuy.model.Product
 import com.example.babybuy.databinding.ActivityDetailViewBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
@@ -100,7 +105,8 @@ class DetailViewActivity : AppCompatActivity() {
             try {
                 val lat = product?.location!!.split(",")[0]
                 val lng = product.location.split(",")[1]
-                val geoCodedAddress = GeoCoding.reverseTheGeoCodeToAddress(this@DetailViewActivity, lat, lng)
+                val geoCodedAddress =
+                    GeoCoding.reverseTheGeoCodeToAddress(this@DetailViewActivity, lat, lng)
                 detailViewBinding.productLocation.text = geoCodedAddress
             } catch (exception: java.lang.Exception) {
                 exception.printStackTrace()

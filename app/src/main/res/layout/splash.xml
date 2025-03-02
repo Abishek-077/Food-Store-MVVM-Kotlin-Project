@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#FF0057B8"
     android:gravity="center"
-    tools:context=".SplashActivity">
+    tools:context=".ui.Activity.SplashActivity">
 
         <ImageView
             android:id="@+id/logoImageView"

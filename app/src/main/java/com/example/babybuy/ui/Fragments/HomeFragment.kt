@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.babybuy.Dashboard
-import com.example.babybuy.Fragments.ShopFragment
+import com.example.babybuy.ui.Activity.Dashboard
+import com.example.babybuy.ui.Fragments.ShopFragment
 import com.example.babybuy.R
 
 class HomeFragment : Fragment() {

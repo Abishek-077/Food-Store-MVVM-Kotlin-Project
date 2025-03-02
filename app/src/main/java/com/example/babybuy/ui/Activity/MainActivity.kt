@@ -1,7 +1,8 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.babybuy.R
 
 
 class MainActivity : AppCompatActivity() {

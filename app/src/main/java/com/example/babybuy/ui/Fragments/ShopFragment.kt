@@ -1,4 +1,4 @@
-package com.example.babybuy.Fragments
+package com.example.babybuy.ui.Fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.babybuy.AddOrUpdateItemActivity
+import com.example.babybuy.ui.Activity.AddOrUpdateItemActivity
 import com.example.babybuy.AppConstant
 import com.example.babybuy.model.Product
-import com.example.babybuy.DetailViewActivity
-import com.example.babybuy.ProductRecyclerAdapter
-import com.example.babybuy.UiUtility
+import com.example.babybuy.ui.Activity.DetailViewActivity
+import com.example.babybuy.ui.ProductRecyclerAdapter
+import com.example.babybuy.ui.UiUtility
 import com.example.babybuy.databinding.FragmentShopBinding
 import com.example.babybuy.model.FirestoreProduct
 import com.google.firebase.firestore.FirebaseFirestore

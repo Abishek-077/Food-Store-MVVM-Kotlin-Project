@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,6 +12,8 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.babybuy.BitmapScalar
+import com.example.babybuy.R
 import com.example.babybuy.model.Product
 import java.io.IOException
 

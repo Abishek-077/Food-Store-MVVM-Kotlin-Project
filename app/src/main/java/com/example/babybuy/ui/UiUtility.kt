@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui
 
 import android.content.Context
 import android.widget.Toast

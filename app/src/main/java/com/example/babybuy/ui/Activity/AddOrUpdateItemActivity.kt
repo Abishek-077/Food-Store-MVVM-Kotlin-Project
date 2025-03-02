@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.Manifest
 import android.content.Intent
@@ -7,16 +7,18 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
-import android.util.Log
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.babybuy.AppConstant
+import com.example.babybuy.BitmapScalar
+import com.example.babybuy.GeoCoding
+import com.example.babybuy.R
 import com.example.babybuy.model.Product
 import com.example.babybuy.databinding.ActivityAddOrUpdateItemBinding
-import com.example.babybuy.model.FirestoreProduct
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.firebase.firestore.FirebaseFirestore
 import java.io.IOException

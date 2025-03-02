@@ -1,6 +1,5 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.hardware.Sensor
@@ -17,6 +16,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.babybuy.AppConstant
+import com.example.babybuy.R
 import com.example.babybuy.model.User
 import com.example.babybuy.repository.UserRespositoryImpl
 import com.example.babybuy.view_model.LoginViewModel

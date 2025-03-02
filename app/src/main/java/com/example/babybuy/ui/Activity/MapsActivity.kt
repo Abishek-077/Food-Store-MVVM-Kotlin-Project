@@ -1,4 +1,4 @@
-package com.example.babybuy
+package com.example.babybuy.ui.Activity
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -8,9 +8,11 @@ import android.location.Location
 import android.location.LocationRequest
 import android.os.Build
 import android.os.Bundle
-import android.system.Os
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.babybuy.AppConstant
+import com.example.babybuy.R
+import com.example.babybuy.ui.UiUtility
 import com.example.babybuy.databinding.ActivityMapsBinding
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.maps.CameraUpdateFactory
