@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Baby Buy"
+rootProject.name = "Food Store"
 include(":app")
 include(":appconstant-module")

@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="Hey! I am on Food Store App."
         android:textSize="16sp"
-        android:textColor="#666666"
+        android:textColor="@color/black"
         android:gravity="center"
         android:layout_marginBottom="16dp"/>
 
